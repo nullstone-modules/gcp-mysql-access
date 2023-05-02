@@ -1,0 +1,16 @@
+org_name: nullstone
+name: gcp-mysql-access
+friendly_name: MySQL Access
+description: Grants an application access to a newly-created mysql database managed by GCP
+category: capability
+subcategory: datastores
+provider_types:
+    - gcp
+platform: mysql
+subplatform: ""
+type: ""
+appCategories:
+    - container
+    - serverless
+    - server
+is_public: true
