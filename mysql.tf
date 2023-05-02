@@ -1,7 +1,7 @@
 data "ns_connection" "mysql" {
   name     = "mysql"
   type     = "mysql/gcp"
-  contract = "gcp/mysql/cloudsql:*"
+  contract = "datastore/gcp/mysql:*"
 }
 
 locals {
