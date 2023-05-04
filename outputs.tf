@@ -23,7 +23,7 @@ output "secrets" {
     },
     {
       name  = "MYSQL_URL"
-      value = "mysql2://${urlencode(local.username)}:${urlencode(random_password.this.result)}@${local.db_endpoint}/${urlencode(local.database_name)}"
+      value = "mysql2://${urlencode(local.database_name)}:${urlencode(random_password.this.result)}@${local.db_endpoint}/${urlencode(local.database_name)}"
     }
   ]
 }
