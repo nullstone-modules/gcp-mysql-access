@@ -6,7 +6,7 @@ output "env" {
     },
     {
       name  = "MYSQL_USER"
-      value = local.username
+      value = local.database_name
     },
     {
       name  = "MYSQL_DB"
