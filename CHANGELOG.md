@@ -1,3 +1,6 @@
+# 0.1.2 (May 20, 2026)
+* Added var.post_app_metadata.
+
 # 0.1.1 (Apr 17, 2025)
 * Eliminated problematic special characters from password generation.
 
